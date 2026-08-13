@@ -1,0 +1,5 @@
+{{- with site.Params.footer.text }}
+<div class="footer-custom">
+  {{ . | markdownify }}
+</div>
+{{- end }}
